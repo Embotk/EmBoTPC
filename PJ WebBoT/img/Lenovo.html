@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoTPC</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+<style>
+    .header-navbar {
+        background-color: #19202b;
+    }
+
+    li a i:hover {
+        color: rgb(247, 185, 78);
+        transform: scale(1.5);
+
+    }
+
+    ul li a:hover {
+        color: #555555;
+        border-bottom: 1px solid goldenrod;
+    }
+
+    ul li a {
+        transition: all .3s;
+
+    }
+
+    li a i {
+        transition: all .3s;
+    }
+
+    .logo {
+        font-weight: bold;
+
+    }
+
+    .logo2 img {
+        font-weight: bold;
+        font-size: 35px;
+        color: black;
+        width: 100px;
+        transition: all .4s;
+    }
+
+    .logo2 img:hover {
+        transform: scale(1.1);
+    }
+
+    .nav2 li a {
+        color: #555555;
+        font-size: 18px;
+    }
+
+    .nav2 li a i {
+        transition: all .4s;
+    }
+
+    .nav-3 a {
+        transition: all .4s;
+    }
+
+    .nav-3 a:hover {
+        transform: scale(1.2);
+    }
+
+    /* .card-1 {
+        height: 700px;
+        background-color: rgb(217, 213, 213);
+    } */
+    .card-1 img {
+        transition: all .4s;
+    }
+
+    .card-1 img:hover {
+        transform: scale(1.1);
+    }
+
+    .card-5 {
+        overflow: hidden;
+        height: 450px;
+        width: 400px;
+
+    }
+
+    .intro {
+        height: 350px;
+        width: 400px;
+        background-color: #55555594;
+        box-sizing: border-box;
+        position: absolute;
+        color: white;
+    }
+
+    .card-5:hover {
+        cursor: pointer;
+    }
+
+    .card-5:hover .intro {
+        height: 250px;
+    }
+</style>
+
+<body>
+    <!-- =================== Navbar 1=================== -->
+    <section>
+        <nav class="header-navbar navbar navbar-dark  ">
+            <div class="container ">
+                <a class="logo navbar-brand text-white" href="index.html">BoTPc</a>
+                <ul class="nav-1 nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="javascript:void(0)">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="javascript:void(0)">Contact</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="https://web.facebook.com/profile.php?id=61550193461768">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="javascript:void(0)">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="https://t.me/Vibot1111">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- =================== Navbar 2=================== -->
+    <section>
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            <div class="container mt-3">
+                <a class="logo2" href="index.html"><img src="Logo.png" alt=""></a>
+                <div class="navbar">
+
+                </div>
+                <div class="navbar">
+                    <ul class="nav2 nav">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Sign in |
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Log in
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- =================== Navbar 3=================== -->
+    <section>
+        <div class="container">
+            <div class="nav-3    w-100">
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-secondary ">
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Laptop.html">
+                                        <img class="pc2" src="laptop_logo.png" style="width: 40px;">
+                                        Laptop
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Pc.html">
+                                        <img class="pc2" src="pc1.png" style="width: 40px;">
+                                        PCSets
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="#">
+                                        <img src="pc2.png" style="width: 40px;">
+                                        PC Hardware
+
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Accessories.html">
+                                        <img src="usb.png" style="width: 40px;">
+                                        Accessories
+                                    </a>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- =================== Laptop =================== -->
+    <section>
+        <div class="container">
+            <div class="h-laptop ">
+                <div class="h-lap1 mt-4">
+                    <h3>
+                        <a class="nav-link" href="#">
+                            <img class="pc2" src="laptop_logo.png" style="width: 40px;">
+                            Laptop
+                            <hr>
+                        </a>
+                    </h3>
+                </div>
+
+                <div class="lap-card ">
+                    <!-- ==================== row-lap-1============= -->
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="nav flex-column align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark " href="Laptop.html">
+                                        <img src="logo/msi.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="Asus.html">
+                                        <img src="logo/Asus.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="Lenovo.html">
+                                        <img src="logo/Lenovo.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="#">
+                                        <img src="logo/Samsung_Logo.svg.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="#">
+                                        <img src="logo/Mac.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-sm-10">
+                            <h3>
+                                <a class="nav-link" href="#">
+                                    <img class="pc2" src="logo/Lenovo.png" style="width: 150px;">
+
+                                    <hr>
+                                </a>
+                            </h3>
+
+                            <div class="row">
+                                <!-- ========================== card1 ======================= -->
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/Lenovo.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">Lenovo IdeaPad 1 <br> (14”, Intel)
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$279.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-Asus-vi-15">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-Asus-vi-15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/Lenovo.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <h3 class=" text-center text-danger">$279.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel Celeron N4020 (2C/2Th,2.8 GHz) <br>
+                                                    - RAM : 8GB DDR4 3200Mhz <br>
+                                                    - Storage : 256GB M.2 Pcie <br>
+                                                    - VGA : Intel Graphic <br>
+                                                    - Display : 14" FHD <br>
+                                                    - OS : Windows 11 <br>
+                                                    - Battery: Li-Polymer 32Wh <br>
+                                                    - Color : Iron grey <br>
+                                                    - Weight : 1.4 kg <br>
+
+                                                    FREE ACCESSORY BUNDLE : <br>
+                                                    - Backpack <br>
+                                                    - Wireless Mouse <br>
+                                                    - USB Flash 32GB <br>
+                                                    - Screen Protector <br>
+                                                    - Mouse Pad <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ========================== card2 ======================= -->
+
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/Lenovo.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">Lenovo IdeaPad 1 <br> (14”, Intel)
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$279.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-Asus-vi-15">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-Asus-vi-15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/Lenovo.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <h3 class=" text-center text-danger">$279.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel Celeron N4020 (2C/2Th,2.8 GHz) <br>
+                                                    - RAM : 8GB DDR4 3200Mhz <br>
+                                                    - Storage : 256GB M.2 Pcie <br>
+                                                    - VGA : Intel Graphic <br>
+                                                    - Display : 14" FHD <br>
+                                                    - OS : Windows 11 <br>
+                                                    - Battery: Li-Polymer 32Wh <br>
+                                                    - Color : Iron grey <br>
+                                                    - Weight : 1.4 kg <br>
+
+                                                    FREE ACCESSORY BUNDLE : <br>
+                                                    - Backpack <br>
+                                                    - Wireless Mouse <br>
+                                                    - USB Flash 32GB <br>
+                                                    - Screen Protector <br>
+                                                    - Mouse Pad <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ============================== Card3 ======================== -->
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/Lenovo.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">Lenovo IdeaPad 1 <br> (14”, Intel)
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$279.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-Asus-vi-15">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-Asus-vi-15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/Lenovo.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <h3 class=" text-center text-danger">$279.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel Celeron N4020 (2C/2Th,2.8 GHz) <br>
+                                                    - RAM : 8GB DDR4 3200Mhz <br>
+                                                    - Storage : 256GB M.2 Pcie <br>
+                                                    - VGA : Intel Graphic <br>
+                                                    - Display : 14" FHD <br>
+                                                    - OS : Windows 11 <br>
+                                                    - Battery: Li-Polymer 32Wh <br>
+                                                    - Color : Iron grey <br>
+                                                    - Weight : 1.4 kg <br>
+
+                                                    FREE ACCESSORY BUNDLE : <br>
+                                                    - Backpack <br>
+                                                    - Wireless Mouse <br>
+                                                    - USB Flash 32GB <br>
+                                                    - Screen Protector <br>
+                                                    - Mouse Pad <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ======================= ===================== -->
+                                <!-- ========================== card1 ======================= -->
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/Lenovo.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">Lenovo IdeaPad 1 <br> (14”, Intel)
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$279.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-Asus-vi-15">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-Asus-vi-15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/Lenovo.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <h3 class=" text-center text-danger">$279.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel Celeron N4020 (2C/2Th,2.8 GHz) <br>
+                                                    - RAM : 8GB DDR4 3200Mhz <br>
+                                                    - Storage : 256GB M.2 Pcie <br>
+                                                    - VGA : Intel Graphic <br>
+                                                    - Display : 14" FHD <br>
+                                                    - OS : Windows 11 <br>
+                                                    - Battery: Li-Polymer 32Wh <br>
+                                                    - Color : Iron grey <br>
+                                                    - Weight : 1.4 kg <br>
+
+                                                    FREE ACCESSORY BUNDLE : <br>
+                                                    - Backpack <br>
+                                                    - Wireless Mouse <br>
+                                                    - USB Flash 32GB <br>
+                                                    - Screen Protector <br>
+                                                    - Mouse Pad <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ========================== card2 ======================= -->
+
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/Lenovo.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">Lenovo IdeaPad 1 <br> (14”, Intel)
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$279.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-Asus-vi-15">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-Asus-vi-15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/Lenovo.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <h3 class=" text-center text-danger">$279.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel Celeron N4020 (2C/2Th,2.8 GHz) <br>
+                                                    - RAM : 8GB DDR4 3200Mhz <br>
+                                                    - Storage : 256GB M.2 Pcie <br>
+                                                    - VGA : Intel Graphic <br>
+                                                    - Display : 14" FHD <br>
+                                                    - OS : Windows 11 <br>
+                                                    - Battery: Li-Polymer 32Wh <br>
+                                                    - Color : Iron grey <br>
+                                                    - Weight : 1.4 kg <br>
+
+                                                    FREE ACCESSORY BUNDLE : <br>
+                                                    - Backpack <br>
+                                                    - Wireless Mouse <br>
+                                                    - USB Flash 32GB <br>
+                                                    - Screen Protector <br>
+                                                    - Mouse Pad <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ============================== Card3 ======================== -->
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/Lenovo.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">Lenovo IdeaPad 1 <br> (14”, Intel)
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$279.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-Asus-vi-15">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-Asus-vi-15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/Lenovo.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">Lenovo IdeaPad 1 (14”, Intel)</h4>
+                                                <h3 class=" text-center text-danger">$279.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel Celeron N4020 (2C/2Th,2.8 GHz) <br>
+                                                    - RAM : 8GB DDR4 3200Mhz <br>
+                                                    - Storage : 256GB M.2 Pcie <br>
+                                                    - VGA : Intel Graphic <br>
+                                                    - Display : 14" FHD <br>
+                                                    - OS : Windows 11 <br>
+                                                    - Battery: Li-Polymer 32Wh <br>
+                                                    - Color : Iron grey <br>
+                                                    - Weight : 1.4 kg <br>
+
+                                                    FREE ACCESSORY BUNDLE : <br>
+                                                    - Backpack <br>
+                                                    - Wireless Mouse <br>
+                                                    - USB Flash 32GB <br>
+                                                    - Screen Protector <br>
+                                                    - Mouse Pad <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ======================= ===================== -->
+                                
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoTPC</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+<style>
+    .header-navbar {
+        background-color: #19202b;
+    }
+
+    li a i:hover {
+        color: rgb(247, 185, 78);
+        transform: scale(1.5);
+
+    }
+
+    ul li a:hover {
+        color: #555555;
+        border-bottom: 1px solid goldenrod;
+    }
+
+    ul li a {
+        transition: all .3s;
+
+    }
+
+    li a i {
+        transition: all .3s;
+    }
+
+    .logo {
+        font-weight: bold;
+
+    }
+
+    .logo2 img {
+        font-weight: bold;
+        font-size: 35px;
+        color: black;
+        width: 100px;
+        transition: all .4s;
+    }
+
+    .logo2 img:hover {
+        transform: scale(1.1);
+    }
+
+    .nav2 li a {
+        color: #555555;
+        font-size: 18px;
+    }
+
+    .nav2 li a i {
+        transition: all .4s;
+    }
+
+    .nav-3 a {
+        transition: all .4s;
+    }
+
+    .nav-3 a:hover {
+        transform: scale(1.2);
+    }
+
+    /* .card-1 {
+        height: 700px;
+        background-color: rgb(217, 213, 213);
+    } */
+    .card-1 img {
+        transition: all .4s;
+    }
+
+    .card-1 img:hover {
+        transform: scale(1.1);
+    }
+
+    .card-5 {
+        overflow: hidden;
+        height: 450px;
+        width: 400px;
+
+    }
+
+    .intro {
+        height: 350px;
+        width: 400px;
+        background-color: #55555594;
+        box-sizing: border-box;
+        position: absolute;
+        color: white;
+    }
+
+    .card-5:hover {
+        cursor: pointer;
+    }
+
+    .card-5:hover .intro {
+        height: 250px;
+    }
+</style>
+
+<body>
+    <!-- =================== Navbar 1=================== -->
+    <section>
+        <nav class="header-navbar navbar navbar-dark  ">
+            <div class="container ">
+                <a class="logo navbar-brand text-white" href="index.html">BoTPc</a>
+                <ul class="nav-1 nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="javascript:void(0)">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="javascript:void(0)">Contact</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="https://web.facebook.com/profile.php?id=61550193461768">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="javascript:void(0)">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="https://t.me/Vibot1111">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- =================== Navbar 2=================== -->
+    <section>
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            <div class="container mt-3">
+                <a class="logo2" href="index.html"><img src="Logo.png" alt=""></a>
+                <div class="navbar">
+
+                </div>
+                <div class="navbar">
+                    <ul class="nav2 nav">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Sign in |
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Log in
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- =================== Navbar 3=================== -->
+    <section>
+        <div class="container">
+            <div class="nav-3    w-100">
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-secondary ">
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Laptop.html">
+                                        <img class="pc2" src="laptop_logo.png" style="width: 40px;">
+                                        Laptop
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Pc.html">
+                                        <img class="pc2" src="pc1.png" style="width: 40px;">
+                                        PCSets
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="#">
+                                        <img src="pc2.png" style="width: 40px;">
+                                        PC Hardware
+
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Accessories.html">
+                                        <img src="usb.png" style="width: 40px;">
+                                        Accessories
+                                    </a>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- =================== Laptop =================== -->
+    <section>
+        <div class="container">
+            <div class="h-laptop ">
+                <div class="h-lap1 mt-4">
+                    <h3>
+                        <a class="nav-link" href="#">
+                            <img class="pc2" src="laptop_logo.png" style="width: 40px;">
+                            Laptop
+                            <hr>
+                        </a>
+                    </h3>
+                </div>
+
+                <div class="lap-card ">
+                    <!-- ==================== row-lap-1============= -->
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <ul class="nav flex-column align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark " href="Laptop.html">
+                                        <img src="logo/msi.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="Asus.html">
+                                        <img src="logo/Asus.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="Lenovo.html">
+                                        <img src="logo/Lenovo.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="#">
+                                        <img src="logo/Samsung_Logo.svg.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="#">
+                                        <img src="logo/Mac.png" alt="" style="width: 150px;">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-sm-10">
+                            <h3>
+                                <a class="nav-link" href="#">
+                                    <img class="pc2" src="logo/msi.png" style="width: 150px;">
+
+                                    <hr>
+                                </a>
+                            </h3>
+
+                            <div class="row">
+                                <!-- ========================== card1 ======================= -->
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/MSI_GF63.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI GF63 Thin 12UCX <br> (Intel 12th Gen)
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$629.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-MSI-GF63">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-GF63">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI GF63 Thin 12UCX</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/MSI_GF63.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">MSI GF63 Thin 12UCX (Intel 12th Gen)</h4>
+                                                <h3 class=" text-center text-danger">$629.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel® Core™ i5-12450H (8C,12Th,4.40 GHz) <br>
+                                                    - RAM : 8GB DDR4 3200Mhz <br>
+                                                    - Storage : 512GB M.2 PCIe <br>
+                                                    - Screen : 15.6" FHD (1920x1080) 144Hz IPS <br>
+                                                    - VGA : Nvidia RTX™ 2050 4GB GDDR6 <br>
+                                                    - Keyboard : Backlight Red <br>
+                                                    - OS : Window 11 Home License <br>
+                                                    - Battery : 3-Cells 52whr Li-Polymer <br>
+                                                    - Weight : 1.86 kg with battery | Color : Black <br>
+                                                    Upgrade Spec : <br>
+                                                    $629 RAM 8GB | 512GB <br>
+                                                    $649 RAM 16GB | 512GB <br>
+                                                    $679 RAM 16GB | 1TB <br>
+                                                    $719 RAM 32GB | 1TB <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ========================== card2 ======================= -->
+
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/MSI Katana.png" alt="Los Angeles"
+                                            style="width:80%; margin: auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI KATANA 15 <br> B12VKFK</h4>
+                                            <h3 class="card-title text-center text-danger">$949.00</h3>
+
+                                            <p class="card-text">
+
+                                            </p>
+                                            <button type="button" class="btn btn-primary w-100 text-center "
+                                                data-bs-toggle="modal" data-bs-target="#Modal-MSI-Katana">
+                                                Open modal
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-Katana">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI KATANA 15 B12VKFK</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/MSI Katana.png" alt="" style="width: 100%;">
+                                                <h4 class="card-title text-center">MSI KATANA 15 B12VKFK</h4>
+                                                <h3 class="card-title text-center text-danger">$949.00</h3>
+                                                <p class="card-text">
+                                                    - Intel® Core™ i7-12650H 10 Cores , 16 Threads <br>
+                                                    - RAM : 16GB DDR5 <br>
+                                                    - Storage 1 : 512GB M.2 PCIe <br>
+                                                    - 15.6" FHD (1920x1080) IPS 144Hz <br>
+                                                    - VGA : NVIDIA RTX 4060 8GB <br>
+                                                    - RGB Backlight Keyboard <br>
+                                                    - Windows 11 License <br>
+                                                    - Weight : 1.9Kg | Black <br>
+                                                    - Code: ICT0203P1187C1 <br>
+                                                    Upgrade Spec : <br>
+                                                    $949 RAM 16GB | 512GB <br>
+                                                    $989 RAM 16GB | 1TB <br>
+                                                    $1029 RAM 32GB | 1TB <br>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                </p>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ============================== Card3 ======================== -->
+                                <div class="col-sm-4">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/Katana17.png" alt="Los Angeles"
+                                            style="width:80%; margin: auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI KATANA 17 <br> B13VFK-1229KH</h4>
+                                            <h3 class="card-title text-center text-danger">$1,249.00</h3>
+
+                                            <p class="card-text">
+
+                                            </p>
+                                            <button type="button" class="btn btn-primary w-100 text-center "
+                                                data-bs-toggle="modal" data-bs-target="#Modal-MSI-Katana17">
+                                                Open modal
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-Katana17">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI KATANA 17 B13VFK-1229KH</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/Katana17.png" alt="" style="width: 100%;">
+                                                <h4 class="card-title text-center">MSI KATANA 17 B13VFK-1229KH</h4>
+                                                <h3 class="card-title text-center text-danger">$1,249.00</h3>
+                                                <p class="card-text">
+                                                    - CPU : Intel® Core™ i7-13620H (10C,16Th, 4.90GHz)
+                                                    - RAM : DDR5 16GB 4800Mhz <br>
+                                                    - Storage : 1TB NVMe PCIe Gen4 <br>
+                                                    - Screen : 17.3"" QHD (2560*1440), 240Hz DCI-P3 100% <br>
+                                                    - VGA : NVIDIA® RTX 4060 8GB GDDR6 <br>
+                                                    - Keyboard : 4 Zone RGB Keyboard <br>
+                                                    - OS : Window 11 Home License 64Bit <br>
+                                                    - Battery : 3-Cell 53.5 Battery (Whr) <br>
+                                                    - Weight : 2.6 kg | Color : Black <br>
+                                                    Upgrade Spec : <br>
+                                                    $1249 RAM 16GB | 1TB <br>
+                                                    $1289 RAM 32GB | 1TB <br>
+                                                    $1349 RAM 32GB | 2TB <br>
+                                                    Free item : <br>
+                                                    - MSI M99 Mouse <br>
+                                                    - MSI BAGPack <br>
+                                                    - Gaming Headset <br>
+                                                    - Screen Protector <br>
+                                                    - Laptop Fans <br>
+                                                </p>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ======================= ===================== -->
+                                <!-- ========================== card1 ======================= -->
+                                <div class="col-sm-4 mt-3">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/MSI Thin.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI Thin 15 <br> B12UC-1447KH
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$799.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-MSI-Than15">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-Than15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI Thin 15 B12UC-1447KH</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/MSI Thin.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">MSI Thin 15 B12UC-1447KH</h4>
+                                                <h3 class=" text-center text-danger">$799.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel® Core™ i7-12650H (10C,16Th,4.70 GHz)
+                                                    - RAM : 16GB DDR4 3200Mhz <br>
+                                                    - Storage : 1TB M.2 Gen4 <br>
+                                                    - Screen : 15.6"" FHD (1920*1080), 144Hz <br>
+                                                    - VGA : NVIDIA® RTX 3050 4GB GDDR6 <br>
+                                                    - Keyboard : Blue Backlit <br>
+                                                    - OS : Window 11 Home License 64Bit <br>
+                                                    - Battery : 3-Cell 52.4 Whrs <br>
+                                                    - Weight : 1.6 kg | Color : Cosmos Gray <br>
+
+                                                    Upgrade Spec : <br>
+
+                                                    $799 RAM 16GB | 1TB <br>
+                                                    $839 RAM 32GB | 1TB <br>
+                                                    $899 RAM 32GB | 2TB <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ========================== card2 ======================= -->
+
+                                <div class="col-sm-4 mt-3">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/MSI Thin.png" alt="Los Angeles"
+                                            style="width:80%; margin: auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI Thin 15 <br> B12VE-1449KH</h4>
+                                            <h3 class="card-title text-center text-danger">$899.00</h3>
+
+                                            <p class="card-text">
+
+                                            </p>
+                                            <button type="button" class="btn btn-primary w-100 text-center "
+                                                data-bs-toggle="modal" data-bs-target="#Modal-MSI-Thin15a">
+                                                Open modal
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-Thin15a">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI Thin 15 B12VE-1449KH</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/MSI Thin.png" alt="" style="width: 100%;">
+                                                <h4 class="card-title text-center">MSI Thin 15 B12VE-1449KH</h4>
+                                                <h3 class="card-title text-center text-danger">$899.00</h3>
+                                                <p class="card-text">
+                                                    - CPU : Intel® Core™ i7-12650H (10C,16Th,4.7 GHz)
+                                                    - RAM : 16GB DDR4 3200Mhz <br>
+                                                    - Storage : 1TB M.2 Gen4 <br>
+                                                    - Screen : 15.6"" FHD (1920*1080), 144Hz <br>
+                                                    - VGA : NVIDIA® RTX 4050 6GB GDDR6 <br>
+                                                    - Keyboard : Blue Backlit <br>
+                                                    - OS : Window 11 Home License 64Bit <br>
+                                                    - Battery : 3-Cell 52.4 Whrs <br>
+                                                    - Weight : 1.86 kg | Color : Cosmos Gray <br>
+
+                                                    Upgrade Spec : <br>
+
+                                                    $899 RAM 16GB | 1TB <br>
+                                                    $939 RAM 32GB | 1TB <br>
+                                                    $999 RAM 32GB | 2TB <br>
+                                                </p>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ============================== Card3 ======================== -->
+                                <div class="col-sm-4 mt-3">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/MSI Thin.png" alt="Los Angeles"
+                                            style="width:80%; margin: auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI Thin A15 <br> B7VF-034KH</h4>
+                                            <h3 class="card-title text-center text-danger">$999.00</h3>
+
+                                            <p class="card-text">
+
+                                            </p>
+                                            <button type="button" class="btn btn-primary w-100 text-center "
+                                                data-bs-toggle="modal" data-bs-target="#Modal-MSI-ThinA15">
+                                                Open modal
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-ThinA15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI Thin A15 B7VF-034KH</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/MSI Thin.png" alt="" style="width: 100%;">
+                                                <h4 class="card-title text-center">MSI Thin A15 B7VF-034KH</h4>
+                                                <h3 class="card-title text-center text-danger">$999.00</h3>
+                                                <p class="card-text">
+                                                    MSI Thin A15 B7VF-034KH
+                                                    - CPU : AMD Ryzen 7 7735HS (8C,16Th,4.75 GHz) <br>
+                                                    - RAM : 16GB DDR4 3200Mhz <br>
+                                                    - Storage : 1TB M.2 Gen4 <br>
+                                                    - Screen : 15.6"" FHD (1920*1080), 144Hz <br>
+                                                    - VGA : NVIDIA® RTX 4060 8GB GDDR6 <br>
+                                                    - Keyboard : Blue Backlit <br>
+                                                    - OS : Window 11 Home License 64Bit <br>
+                                                    - Battery : 3-Cell 52.4 Whrs <br>
+                                                    - Weight : 1.86 kg | Color : Cosmos Gray <br>
+
+                                                    Upgrade Spec : <br>
+
+                                                    $999 RAM 16GB | 1TB <br>
+                                                    $1039 RAM 32GB | 1TB <br>
+                                                    $1099 RAM 32GB | 2TB <br>
+                                                </p>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- ======================= ===================== -->
+                                <!-- ========================== card1 ======================= -->
+                                <div class="col-sm-4 mt-3">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/MSI Thin.png" alt="Los Angeles"
+                                            style="width:80%; margin:auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI Thin 15 <br> B12UC-1447KH
+                                            </h4>
+                                            <h3 class="card-title text-center text-danger">$799.00</h3>
+                                            <p class="card-text ">
+                                                <button type="button" class="btn btn-primary w-100 text-center mt-2"
+                                                    data-bs-toggle="modal" data-bs-target="#Modal-MSI-Than15">
+                                                    Open modal
+                                                </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-Than15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI Thin 15 B12UC-1447KH</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/MSI Thin.png" alt="" style="width: 100%;">
+                                                <h4 class=" text-center">MSI Thin 15 B12UC-1447KH</h4>
+                                                <h3 class=" text-center text-danger">$799.00</h3>
+                                                <p class="">
+                                                    - CPU : Intel® Core™ i7-12650H (10C,16Th,4.70 GHz)
+                                                    - RAM : 16GB DDR4 3200Mhz <br>
+                                                    - Storage : 1TB M.2 Gen4 <br>
+                                                    - Screen : 15.6"" FHD (1920*1080), 144Hz <br>
+                                                    - VGA : NVIDIA® RTX 3050 4GB GDDR6 <br>
+                                                    - Keyboard : Blue Backlit <br>
+                                                    - OS : Window 11 Home License 64Bit <br>
+                                                    - Battery : 3-Cell 52.4 Whrs <br>
+                                                    - Weight : 1.6 kg | Color : Cosmos Gray <br>
+
+                                                    Upgrade Spec : <br>
+
+                                                    $799 RAM 16GB | 1TB <br>
+                                                    $839 RAM 32GB | 1TB <br>
+                                                    $899 RAM 32GB | 2TB <br>
+
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ========================== card2 ======================= -->
+
+                                <div class="col-sm-4 mt-3">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/MSI Thin.png" alt="Los Angeles"
+                                            style="width:80%; margin: auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI Thin 15 <br> B12VE-1449KH</h4>
+                                            <h3 class="card-title text-center text-danger">$899.00</h3>
+
+                                            <p class="card-text">
+
+                                            </p>
+                                            <button type="button" class="btn btn-primary w-100 text-center "
+                                                data-bs-toggle="modal" data-bs-target="#Modal-MSI-Thin15a">
+                                                Open modal
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-Thin15a">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI Thin 15 B12VE-1449KH</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/MSI Thin.png" alt="" style="width: 100%;">
+                                                <h4 class="card-title text-center">MSI Thin 15 B12VE-1449KH</h4>
+                                                <h3 class="card-title text-center text-danger">$899.00</h3>
+                                                <p class="card-text">
+                                                    - CPU : Intel® Core™ i7-12650H (10C,16Th,4.7 GHz)
+                                                    - RAM : 16GB DDR4 3200Mhz <br>
+                                                    - Storage : 1TB M.2 Gen4 <br>
+                                                    - Screen : 15.6"" FHD (1920*1080), 144Hz <br>
+                                                    - VGA : NVIDIA® RTX 4050 6GB GDDR6 <br>
+                                                    - Keyboard : Blue Backlit <br>
+                                                    - OS : Window 11 Home License 64Bit <br>
+                                                    - Battery : 3-Cell 52.4 Whrs <br>
+                                                    - Weight : 1.86 kg | Color : Cosmos Gray <br>
+
+                                                    Upgrade Spec : <br>
+
+                                                    $899 RAM 16GB | 1TB <br>
+                                                    $939 RAM 32GB | 1TB <br>
+                                                    $999 RAM 32GB | 2TB <br>
+                                                </p>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ============================== Card3 ======================== -->
+                                <div class="col-sm-4 mt-3">
+                                    <div class="card-1 card">
+                                        <img class="card-img-top" src="Laptop/MSI Thin.png" alt="Los Angeles"
+                                            style="width:80%; margin: auto;">
+                                        <hr>
+                                        <div class="card-body">
+                                            <h4 class="card-title text-center">MSI Thin A15 <br> B7VF-034KH</h4>
+                                            <h3 class="card-title text-center text-danger">$999.00</h3>
+
+                                            <p class="card-text">
+
+                                            </p>
+                                            <button type="button" class="btn btn-primary w-100 text-center "
+                                                data-bs-toggle="modal" data-bs-target="#Modal-MSI-ThinA15">
+                                                Open modal
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--================= The Modal =====================-->
+                                <div class="modal " id="Modal-MSI-ThinA15">
+                                    <div class=" modal-dialog ">
+                                        <div class=" modal-content ">
+
+                                            <!-- Modal Header -->
+                                            <div class=" modal-header">
+                                                <h4 class="modal-title ">MSI Thin A15 B7VF-034KH</h4>
+                                                <button type="button" class="btn-close"
+                                                    data-bs-dismiss="modal"></button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <img src="Laptop/MSI Thin.png" alt="" style="width: 100%;">
+                                                <h4 class="card-title text-center">MSI Thin A15 B7VF-034KH</h4>
+                                                <h3 class="card-title text-center text-danger">$999.00</h3>
+                                                <p class="card-text">
+                                                    MSI Thin A15 B7VF-034KH
+                                                    - CPU : AMD Ryzen 7 7735HS (8C,16Th,4.75 GHz) <br>
+                                                    - RAM : 16GB DDR4 3200Mhz <br>
+                                                    - Storage : 1TB M.2 Gen4 <br>
+                                                    - Screen : 15.6"" FHD (1920*1080), 144Hz <br>
+                                                    - VGA : NVIDIA® RTX 4060 8GB GDDR6 <br>
+                                                    - Keyboard : Blue Backlit <br>
+                                                    - OS : Window 11 Home License 64Bit <br>
+                                                    - Battery : 3-Cell 52.4 Whrs <br>
+                                                    - Weight : 1.86 kg | Color : Cosmos Gray <br>
+
+                                                    Upgrade Spec : <br>
+
+                                                    $999 RAM 16GB | 1TB <br>
+                                                    $1039 RAM 32GB | 1TB <br>
+                                                    $1099 RAM 32GB | 2TB <br>
+                                                </p>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>
