@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoTPC</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+</head>
+<style>
+    .header-navbar {
+        background-color: #19202b;
+    }
+
+    li a i:hover {
+        color: rgb(247, 185, 78);
+        transform: scale(1.5);
+
+    }
+
+    ul li a:hover {
+        color: #555555;
+        border-bottom: 1px solid goldenrod;
+    }
+
+    ul li a {
+        transition: all .3s;
+
+    }
+
+    li a i {
+        transition: all .3s;
+    }
+
+    .logo {
+        font-weight: bold;
+
+    }
+
+    .logo2 img {
+        font-weight: bold;
+        font-size: 35px;
+        color: black;
+        width: 100px;
+        transition: all .4s;
+    }
+
+    .logo2 img:hover {
+        transform: scale(1.1);
+    }
+
+    .nav2 li a {
+        color: #555555;
+        font-size: 18px;
+    }
+
+    .nav2 li a i {
+        transition: all .4s;
+    }
+
+    .nav-3 a {
+        transition: all .4s;
+    }
+
+    .nav-3 a:hover {
+        transform: scale(1.2);
+    }
+
+    /* .card-1 {
+        height: 700px;
+        background-color: rgb(217, 213, 213);
+    } */
+    .card-1 img{
+        transition: all .4s;
+    }
+    .card-1 img:hover{
+        transform: scale(1.1);
+    }
+</style>
+
+<body>
+    <!-- =================== Navbar 1=================== -->
+    <section>
+        <nav class="header-navbar navbar navbar-dark  ">
+            <div class="container ">
+                <a class="logo navbar-brand text-white" href="javascript:void(0)">BoTPc</a>
+                <ul class="nav-1 nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="javascript:void(0)">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="javascript:void(0)">Contact</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="https://web.facebook.com/profile.php?id=61550193461768">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="javascript:void(0)">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link text-white" href="https://t.me/Vibot1111">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!-- =================== Navbar 2=================== -->
+    <section>
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            <div class="container mt-3">
+                <a class="logo2" href="index.html"><img src="Logo.png" alt=""></a>
+                <div class="navbar">
+
+                </div>
+                <div class="navbar">
+                    <ul class="nav2 nav">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Sign in |
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Log in
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Carousel -->
+    <section>
+        <div class="container mt-2">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Ban.jpg" alt="Los Angeles" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Ban3.jpg" alt="Chicago" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Ban3.png" alt="New York" class="d-block w-100">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- =================== Navbar 3=================== -->
+    <section>
+        <div class="container">
+            <div class="nav-3    w-100">
+
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-secondary ">
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Laptop.html">
+                                        <img class="pc2" src="laptop_logo.png" style="width: 40px;">
+                                        Laptop
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Pc.html">
+                                        <img class="pc2" src="pc1.png" style="width: 40px;">
+                                        PCSets
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="#">
+                                        <img src="pc2.png" style="width: 40px;">
+                                        PC Hardware
+
+                                    </a>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="nav-3 text-center my-3">
+                                    <a class="nav-link" href="Accessories.html">
+                                        <img src="usb.png" style="width: 40px;">
+                                        Accessories
+                                    </a>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- =================== Carousel Card=================== -->
+    <section>
+        <div class="container">
+            <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="Laptop/ASUSX5.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">ASUS X515 X1500KA</h4>
+                                        <h4 class="card-title text-center text-danger">$299.00</h4>
+                                        <p class="card-text">
+                                            <!-- - CPU : Intel Celeron N4500 (2Core/2Threads) <br>
+                                            - RAM : 4GB DDR4 <br>
+                                            - Storage : 512GB SSD <br>
+                                            - Graphic : Intel® Graphics <br>
+                                            - Display : 15.6"FHD (1920 x 1080) <br>
+                                            - OS : Windows 11 Home License<br>
+                                            - Keyboard : Backlit Chiclet Keyboard<br>
+                                            - Battery : 37WHrs,<br>
+                                            - Weight : 1.8 Kg | Indie Black<br>
+                                            - Official Warranty : 2 YEARS<br> -->
+                                            <a href="#" class="btn btn-primary mt-2 w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="Laptop/ASUSZenBook14.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">ASUS ZenBook 14x OLED | Q410VA</h4>
+                                        <h4 class="card-title text-center text-danger">$619.00</h4>
+                                        <p class="card-text">
+                                            <!-- - 13th Gen Intel Evo Core I7-13700H <br>
+                                            - 16GB LPDDR5 | 512GB M.2 PCIe® 4.0<br>
+                                            - Display : 14.5" 2.8K OLED 120Hz Touch<br>
+                                            - VGA : Intel® Iris Xe Graphics<br>
+                                            - Features : FP/Number Pad/ Backlit<br>
+                                            - 70WHrs, 3-cell Li-ion | TYPE-C, 90W AC<br>
+                                            - Windows 11 License<br>
+                                            - Weight : 1.56 kg | Inkwell Gray<br>
+                                            Upgrade Spec :<br>
+                                            $849 RAM 16GB | 512GB -->
+                                        </p>
+                                        <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="Laptop/ASUSTUF.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">ASUS TUF A15 ( RTX 4050 )</h4>
+                                        <h4 class="card-title text-center text-danger">$899.00</h4>
+                                        <p class="card-text">
+                                            <!-- ASUS TUF FA507NU-LP100W <br>
+                                            -CPU : AMD Ryzen™ 5 7535HS (6Core/12Thread 4.55Ghz)<br>
+                                            -RAM : 16GB DDR5 4800Mhz<br>
+                                            -Storage : 512GB M.2 Pcie<br>
+                                            -Screen : 15.6 FHD (1920 x 1080) 144Hz<br>
+                                            -VGA : NVIDIA® RTX™ 4050 6GB GDDR6<br>
+                                            -Keyboard : Backlit Chiclet Keyboard RGB<br>
+                                            -OS : Windows 11 Home License<br>
+                                            -Battery : 90WHrs, 4S1P, 4-cell Li-ion<br> -->
+
+                                        </p>
+                                        <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ===================== S Card2 ============================= -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="PcH/DellInspiron.jpg.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Dell Inspiron AIO 5410 Touch</h4>
+                                        <h4 class="card-title text-center text-danger">$1,199.00</h4>
+                                        <p class="card-text">
+
+                                            <a href="#" class="btn btn-primary mt-2 w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="PcH/IdeaCentre.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">IdeaCentre AIO 3 22IAP7</h4>
+                                        <h4 class="card-title text-center text-danger">$589.00</h4>
+                                        <p class="card-text">
+
+                                        </p>
+                                        <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="PcH/IdeaCentreAIO.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">IdeaCentre AIO 3 24IAP7 </h4>
+                                        <h4 class="card-title text-center text-danger">$799.00</h4>
+                                        <p class="card-text">
+
+
+                                        </p>
+                                        <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ===================== S Card3 ============================= -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="Acces/ADATA2TB.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">ADATA HD770G 2TB RGB USB 3.2</h4>
+                                        <h4 class="card-title text-center text-danger">$99.00</h4>
+                                        <p class="card-text">
+
+                                            <a href="#" class="btn btn-primary mt-2 w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="Acces/Adata32GB.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">Adata 32GB Flash Drive</h4>
+                                        <h4 class="card-title text-center text-danger">$5.00</h4>
+                                        <p class="card-text">
+
+                                        </p>
+                                        <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="card-1 card">
+                                    <img class="card-img-top" src="Acces/TP-link.png" alt="Los Angeles"
+                                        style="width:80%; margin: auto;">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center">TP-Link WiFi 6 AX3000 </h4>
+                                        <h4 class="card-title text-center text-danger">$99.00</h4>
+                                        <p class="card-text">
+
+
+                                        </p>
+                                        <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- =================== Laptop =================== -->
+    <section>
+        <div class="container">
+            <div class="h-laptop ">
+                <div class="h-lap1 mt-4">
+                    <h3>
+                        <a class="nav-link" href="Laptop.html">
+                            <img class="pc2" src="laptop_logo.png" style="width: 40px;">
+                            Laptop
+                            <hr>
+                        </a>
+                    </h3>
+                </div>
+
+                <div class="lap-card">
+                    <!-- ==================== row-lap-1============= -->
+                    <div class="row-lap-1 row row-cols-md-4">
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="Laptop/MSI_GF63.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Msi GF63 Thin 12UCX (Intel 12th Gen)</h4>
+                                    <h4 class="card-title text-center text-danger">$629.00</h4>
+                                    <p class="card-text">
+                                    
+                                        <a href="#" class="btn btn-primary mt-2 w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="Laptop/Lenovo.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Lenovo  IdeaPad 1 (14”, Intel)</h4>
+                                    <h4 class="card-title text-center text-danger">$279.00</h4>
+                                    <p class="card-text">
+                                    
+                                    </p>
+                                    <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="Laptop/Samsung.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Samsung Galaxy Book flix 2 alpha</h4>
+                                    <h4 class="card-title text-center text-danger">$519.00</h4>
+                                    <p class="card-text">
+                                    
+                                    </p>
+                                    <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="Laptop/ASUSTUF.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">ASUS TUF A15 ( RTX 4050 )</h4>
+                                    <h4 class="card-title text-center text-danger">$899.00</h4>
+                                    <p class="card-text">
+                                    
+                                    </p>
+                                    <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+    <!-- =================== PC =================== -->
+    <section>
+        <div class="container">
+            <div class="h-laptop ">
+                <div class="h-lap1 mt-4">
+                    <h3>
+                        <a class="nav-link" href="Pc.html">
+                            <img class="pc2" src="pc1.png" style="width: 40px;">
+                            PCSets
+                            <hr>
+                        </a>
+                    </h3>
+                </div>
+
+                <div class="lap-card">
+                    <!-- ==================== row-lap-1============= -->
+                    <div class="row-lap-1 row row-cols-md-4">
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="PcH/AsusROG.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Asus ROG Strix XG27ACS – 27</h4>
+                                    <h4 class="card-title text-center text-danger">$299.00</h4>
+                                    <p class="card-text">
+                                    
+                                        <a href="#" class="btn btn-primary mt-2 w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="PcH/AsusTUF.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Asus TUF Gaming VG279Q3A - 27</h4>
+                                    <h4 class="card-title text-center text-danger">$199.00</h4>
+                                    <p class="card-text">
+                                    
+                                    </p>
+                                    <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="PcH/AsusVa.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">ASUS VA27EHF - Eye Care – 27</h4>
+                                    <h4 class="card-title text-center text-danger">$139.00</h4>
+                                    <p class="card-text">
+                                    
+                                    </p>
+                                    <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="PcH/AsusROG.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Asus ROG Strix XG27ACS – 27</h4>
+                                    <h4 class="card-title text-center text-danger">$299.00</h4>
+                                    <p class="card-text">
+                                    
+                                        <a href="#" class="btn btn-primary mt-2 w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+    <!-- =================== Accessories=================== -->
+    <section>
+        <div class="container">
+            <div class="h-laptop ">
+                <div class="h-lap1 mt-4">
+                    <h3>
+                        <a class="nav-link" href="Accessories.html">
+                            <img src="usb.png" style="width: 40px;">
+                            Accessories
+                            <hr>
+                        </a>
+                    </h3>
+                </div>
+
+                <div class="lap-card">
+                    <!-- ==================== row-Pc-Hard-1============= -->
+                    <div class="row-lap-1 row row-cols-md-4">
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="Acces/ADATA2TB.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">ADATA HD770G 2TB</h4>
+                                    <h4 class="card-title text-center text-danger">$99.00</h4>
+                                    <p class="card-text">
+                                    
+                                        <a href="#" class="btn btn-primary mt-2 w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="Acces/Adata32GB.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Adata 32GB Flash Drive</h4>
+                                    <h4 class="card-title text-center text-danger">$5.00</h4>
+                                    <p class="card-text">
+                                    
+                                    </p>
+                                    <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="Acces/TP-link.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">TP-Link WiFi 6 AX3000</h4>
+                                    <h4 class="card-title text-center text-danger">$99.00</h4>
+                                    <p class="card-text">
+                                    
+                                    </p>
+                                    <a href="#" class="btn btn-primary w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="card-1 card">
+                                <img class="card-img-top" src="Acces/ADATA2TB.png" alt="Los Angeles"
+                                    style="width:80%; margin: auto;">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">ADATA HD770G 2TB</h4>
+                                    <h4 class="card-title text-center text-danger">$99.00</h4>
+                                    <p class="card-text">
+                                    
+                                        <a href="#" class="btn btn-primary mt-2 w-100">See Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+    <!-- =================== Footer=================== -->
+    <section>
+        <div class="container-fluid  mt-3" style="background-color: #e1e0e0e9;">
+            <div class="footer container py-4">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h5>Contact us</h5>
+                        
+                        <p>
+                            ផ្លូវ 01, ​​ស្រុកស្វាយជ្រំ ខេត្តស្វាយរៀង
+                            <br>
+                             0979887178
+                             <br>
+                            embot052@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Products</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">Last Product</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">Trending Product</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">Discount Product</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">Collection</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">Last Product</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Information</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">Terms & Conditions</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">Return Policy</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="#">Privacy Policy</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>Follow Us</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="https://web.facebook.com/profile.php?id=61550193461768">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="javascript:void(0)">
+                                    <i class="fa-brands fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link text-dark" href="https://t.me/Vibot1111">
+                                    <i class="fa-brands fa-telegram"></i>
+                                    Telegram
+                                </a>
+                            </li>
+                              
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid text-center" style="background-color: #555555;">
+            <p class="py-3 text-white">Copyright ©2024; Designed by BoT</p>
+        </div>
+    </section>
+</body>
+
+</html>
